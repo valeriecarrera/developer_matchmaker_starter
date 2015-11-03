@@ -1,9 +1,115 @@
+
+    /*
+	LAYOUT STYLES
+*/
+/*
+	row block
+*/
 .row {
 	width: 100%;
 	box-sizing: border-box;
+	padding: 20px;
 
-	min-height: 300px;
-	border: 1px solid red;
+	/*min-height: 300px;*/
+	/*border: 1px solid red;*/
 }
 
-.row_container 
+.row__container {
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+
+	box-sizing: border-box;
+	/*min-height: 300px;*/
+	/*border: 1px solid black;*/
+}
+
+/*
+	column block
+*/
+
+.columns {
+	display: flex;
+}
+
+.columns__thirds {
+	width: 33.33333%;
+	box-sizing: border-box;
+	border-right: 1px solid rgba(0,0,0,.15);
+
+	min-height: 300px;
+}
+
+.columns__thirds:last-child {
+	border-right: 1px solid transparent;
+}
+
+/*
+	generic flex-box block
+*/
+
+.flex-box {
+	display: flex;
+}
+
+.flex-box--row {
+	flex-direction: row;
+}
+
+.flex-box--wrap {
+	flex-wrap: wrap;
+}
+
+.flex-box__end {
+	align-self: flex-end;
+}
+
+/*
+	GENERAL STYLES
+*/
+
+html {
+	font-size: 10px;
+	/*font-family: font-family: 'Source Sans Pro', sans-serif;*/
+}
+
+/*
+	text-block block
+*/
+
+.text-block {
+	padding: 20px;
+}
+
+.text-block__header {
+	font-family: 'Merriweather', serif;
+	font-weight: bold;
+	font-size: 2.5rem;
+	line-height: 5rem;
+}
+
+.text-block__content {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 2rem;
+	line-height: 3rem;
+}
+
+/*
+	button block
+*/
+
+.button {
+	border-radius: 5px;
+	box-shadow: rgba(0, 0, 0, 0.2) 0px -3px 0px 0px inset;
+	padding: 12px;
+	background-color: rgb(198,198,198);
+	font-family: Oswald, sans-serif;
+	font-size: 2rem;
+	line-height: 3rem;
+	text-align: center;
+	text-transform: uppercase;
+	width: 100%;
+}
+
+
+
