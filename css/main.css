@@ -73,6 +73,9 @@ html {
 	/*font-family: font-family: 'Source Sans Pro', sans-serif;*/
 }
 
+a {
+	text-decoration: none;
+}
 /*
 	text-block block
 */
@@ -111,5 +114,83 @@ html {
 	width: 100%;
 }
 
+.button--link {
+	text-decoration:none;
+	color: rgb(0,0,0);
+}
+
+/* Header styles */
+
+.header {
+	border-bottom: solid .5rem yellow;
+	background-color: rgb(0,0,0);
+	padding: 20px;
+}
+
+.header__link {
+	color:yellow;
+	font-size: 3rem;
+	font-family: Merriweather, serif;
+}
 
 
+ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+	display: inline;
+	color: white;
+	text-decoration: none;
+} 
+
+a {
+	color: white;
+}
+
+a:hover {
+	color: yellow;
+}
+
+.nav {
+	
+	display: inline;
+	font-size: 1.75rem;
+	height: 100%;
+	float: right;
+}
+
+.clearfix {
+	clear:both; 
+}
+
+.nav__column--link {
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+}
+
+.nav__column--link--end { 
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.subheader {
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    margin: 0;
+    padding: 3rem 5%;
+    font-size: 2.6rem;
+    line-height: 1rem;
+    font-style: italic;
+    background: #C6C6C6;
+    border-top: 1px solid #AAA
+}
+
+.subheader del { 
+	color: #999;
+}
+.subheader ins {
+	text-decoration: none;
+    border-bottom: 3px solid yellow;
+}

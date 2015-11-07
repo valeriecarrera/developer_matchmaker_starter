@@ -6,10 +6,28 @@
 
 	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Oswald:700|Merriweather:700,700italic' rel='stylesheet' type='text/css'>
 
-	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" href="css/reset.css" />
 
+	<link rel="stylesheet" href="css/main.css" />
 </head>
 <body>
+	<header class="header">
+		<div class="header__wrapper"> 
+			<h1><a class="header__link" href="#" >Startup Matchmaker</a></h1>
+		<nav class="nav clearfix" >
+		<ul>
+  			<li nav="nav__column"><a class="nav__column--link" href="#">Developers</a></li>
+  			<li nav="nav__column"><a class="nav__column--link" href="#">Designers</a></li>
+  			<li nav="nav__column"><a class="nav__column--link--end" href="#">How it Works</a></li>
+  			<li nav="nav__column"><a class="nav__column--link--end" href="#">Our Team</a></li>	
+ 			<li nav="nav__column"><a class="nav__column--link--end" href="#">Blog</a></li>		
+		</ul>
+
+		</div>
+	</header>
+	<div class="subheader">
+		<p class="subheader--tagline">Because two brains <del>taste</del> <ins>are</ins> better than&nbsp;one.</p>
+	</div>
 	<section class="row">
 		<div class="row__container columns">
 			<article class="columns__thirds text-block flex-box flex-box--row flex-box--wrap">
@@ -25,6 +43,7 @@
 				</div>
 
 			</article>
+
 			<article class="columns__thirds text-block flex-box flex-box--row flex-box--wrap">
 				
 
@@ -36,11 +55,24 @@
 				</p>
 
 				<div class="button flex-box__end">
-					Start Your Search
+					<a href="#" class="button--link">Start Your Search</a>
 				</div>
 
 			</article>
-			<article class="columns__thirds text-block">
+
+			<article class="columns__thirds text-block flex-box flex-box--row flex-box--wrap">
+				
+
+				<h1 class="text-block__header">
+					Find a Designer
+				</h1>
+				<p class="text-block__content">
+					Need someone who can make a product intuitive and appealing? Get ready.
+				</p>
+
+				<div class="button flex-box__end">
+					<a href="#" class="button--link">Start Your Search</a>
+				</div>
 
 			</article>
 		</div>
